@@ -1,0 +1,281 @@
+=== Restaurant Delivery Robot Simulation Execution Log ===
+Time(s) | Status | Min Obstacle (m) | Alert Message
+---------------------------------------------------------------------------
+[  0.2s] [DELIVERING / ACTIVE]  | Dist: 0.15m  | NORMAL RUNNING
+[  0.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | NORMAL RUNNING
+[  0.8s] [DELIVERING / ACTIVE]  | Dist: 0.18m  | NORMAL RUNNING
+[  1.0s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | NORMAL RUNNING
+[  1.2s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | NORMAL RUNNING
+[  1.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | NORMAL RUNNING
+[  1.8s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | NORMAL RUNNING
+[  2.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | NORMAL RUNNING
+[  2.2s] [DELIVERING / ACTIVE]  | Dist: 0.18m  | NORMAL RUNNING
+[  2.5s] [DELIVERING / ACTIVE]  | Dist: 0.15m  | NORMAL RUNNING
+[  2.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | NORMAL RUNNING
+[  3.0s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | NORMAL RUNNING
+[  3.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | NORMAL RUNNING
+[  3.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | NORMAL RUNNING
+[  3.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | NORMAL RUNNING
+[  4.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | NORMAL RUNNING
+[  4.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | NORMAL RUNNING
+[  4.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | NORMAL RUNNING
+[  4.8s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | NORMAL RUNNING
+[  5.0s] [DELIVERING / ACTIVE]  | Dist: 0.15m  | NORMAL RUNNING
+[  5.2s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | NORMAL RUNNING
+[  5.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | NORMAL RUNNING
+[  5.8s] [DELIVERING / ACTIVE]  | Dist: 0.18m  | NORMAL RUNNING
+[  6.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | NORMAL RUNNING
+[  6.2s] [DELIVERING / ACTIVE]  | Dist: 0.18m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.62m
+[  6.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.62m
+[  6.8s] [EMERGENCY STOP]       | Dist: 0.16m  | [EMERGENCY] [緊急停止] 前方に急な飛び出し・障害物を検知！距離: 0.43m
+[  7.0s] [EMERGENCY STOP]       | Dist: 0.17m  | [EMERGENCY] [緊急停止] 前方に急な飛び出し・障害物を検知！距離: 0.32m
+[  7.2s] [EMERGENCY STOP]       | Dist: 0.17m  | [EMERGENCY] [緊急停止] 前方に急な飛び出し・障害物を検知！距離: 0.32m
+[  7.5s] [EMERGENCY STOP]       | Dist: 0.16m  | [EMERGENCY] [緊急停止] 前方に急な飛び出し・障害物を検知！距離: 0.29m
+[  7.8s] [EMERGENCY STOP]       | Dist: 0.16m  | [EMERGENCY] [緊急停止] 前方に急な飛び出し・障害物を検知！距離: 0.27m
+[  8.0s] [EMERGENCY STOP]       | Dist: 0.15m  | [EMERGENCY] [緊急停止] 前方に急な飛び出し・障害物を検知！距離: 0.24m
+[  8.2s] [EMERGENCY STOP]       | Dist: 0.16m  | [EMERGENCY] [緊急停止] 前方に急な飛び出し・障害物を検知！距離: 0.25m
+[  8.5s] [EMERGENCY STOP]       | Dist: 0.16m  | [EMERGENCY] [緊急停止] 前方に急な飛び出し・障害物を検知！距離: 0.24m
+[  8.8s] [EMERGENCY STOP]       | Dist: 0.17m  | [EMERGENCY] [緊急停止] 前方に急な飛び出し・障害物を検知！距離: 0.25m
+[  9.0s] [EMERGENCY STOP]       | Dist: 0.17m  | [EMERGENCY] [緊急停止] 前方に急な飛び出し・障害物を検知！距離: 0.27m
+[  9.2s] [EMERGENCY STOP]       | Dist: 0.16m  | [EMERGENCY] [緊急停止] 前方に急な飛び出し・障害物を検知！距離: 0.28m
+[  9.5s] [EMERGENCY STOP]       | Dist: 0.16m  | [EMERGENCY] [緊急停止] 前方に急な飛び出し・障害物を検知！距離: 0.29m
+[  9.8s] [EMERGENCY STOP]       | Dist: 0.18m  | [EMERGENCY] [緊急停止] 前方に急な飛び出し・障害物を検知！距離: 0.31m
+[ 10.0s] [EMERGENCY STOP]       | Dist: 0.17m  | [EMERGENCY] [緊急停止] 前方に急な飛び出し・障害物を検知！距離: 0.34m
+[ 10.2s] [DELIVERING / ACTIVE]  | Dist: 0.15m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.49m
+[ 10.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.49m
+[ 10.8s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 11.0s] [DELIVERING / ACTIVE]  | Dist: 0.15m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 11.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 11.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 11.8s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 12.0s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 12.2s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 12.5s] [DELIVERING / ACTIVE]  | Dist: 0.18m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 12.8s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 13.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 13.2s] [DELIVERING / ACTIVE]  | Dist: 0.18m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 13.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 13.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 14.0s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 14.2s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.64m
+[ 14.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.64m
+[ 14.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 15.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 15.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.79m
+[ 15.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 15.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 16.0s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 16.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 16.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 16.8s] [EMERGENCY STOP]       | Dist: 0.16m  | [EMERGENCY] [緊急停止] 前方に急な飛び出し・障害物を検知！距離: 0.44m
+[ 17.0s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.66m
+[ 17.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 17.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 17.8s] [DELIVERING / ACTIVE]  | Dist: 0.15m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 18.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.76m
+[ 18.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.68m
+[ 18.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.77m
+[ 18.8s] [DELIVERING / ACTIVE]  | Dist: 0.18m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 19.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 19.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 19.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.77m
+[ 19.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.68m
+[ 20.0s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 20.2s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 最短通路の閉塞を検知！上側迂回ルート(Y=1.8)へ切り替えます。
+[ 20.5s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 最短通路の閉塞を検知！上側迂回ルート(Y=1.8)へ切り替えます。
+[ 20.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.68m
+[ 21.0s] [DELIVERING / ACTIVE]  | Dist: 0.18m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 21.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.79m
+[ 21.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.79m
+[ 21.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.79m
+[ 22.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 22.2s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 22.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 22.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 23.0s] [DELIVERING / ACTIVE]  | Dist: 0.18m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 23.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.78m
+[ 23.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 23.8s] [DELIVERING / ACTIVE]  | Dist: 0.18m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 24.0s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.83m
+[ 24.2s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.83m
+[ 24.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.83m
+[ 24.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.83m
+[ 25.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.83m
+[ 25.2s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.83m
+[ 25.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.83m
+[ 25.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 26.0s] [DELIVERING / ACTIVE]  | Dist: 0.19m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 26.2s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 26.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 26.8s] [DELIVERING / ACTIVE]  | Dist: 0.15m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 27.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 27.2s] [DELIVERING / ACTIVE]  | Dist: 0.18m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 27.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 27.8s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 28.0s] [DELIVERING / ACTIVE]  | Dist: 0.18m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 28.2s] [DELIVERING / ACTIVE]  | Dist: 0.18m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 28.5s] [DELIVERING / ACTIVE]  | Dist: 0.15m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 28.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 29.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 29.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 29.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 29.8s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 30.0s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 30.2s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 30.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 30.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 31.0s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 31.2s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 31.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 31.8s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 32.0s] [DELIVERING / ACTIVE]  | Dist: 0.18m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 32.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 32.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 32.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 33.0s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 33.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 33.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 33.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 34.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 34.2s] [DELIVERING / ACTIVE]  | Dist: 0.18m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 34.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 34.8s] [DELIVERING / ACTIVE]  | Dist: 0.15m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 35.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 35.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 35.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 35.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 36.0s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 36.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 36.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 36.8s] [DELIVERING / ACTIVE]  | Dist: 0.15m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 37.0s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 37.2s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 37.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 37.8s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 38.0s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 38.2s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 38.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 38.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 39.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 39.2s] [DELIVERING / ACTIVE]  | Dist: 0.15m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 39.5s] [DELIVERING / ACTIVE]  | Dist: 0.15m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 39.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 40.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 40.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 40.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 40.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 41.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 41.2s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 41.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 41.8s] [DELIVERING / ACTIVE]  | Dist: 0.18m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 42.0s] [DELIVERING / ACTIVE]  | Dist: 0.19m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 42.2s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 42.5s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 42.8s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 43.0s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 43.2s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 43.5s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 43.8s] [DELIVERING / ACTIVE]  | Dist: 0.16m  | [SAFE] 前方安全確認完了。運行を継続・再開します。
+[ 44.0s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 44.2s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 44.5s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 44.8s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 45.0s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 45.2s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 45.5s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 45.8s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 46.0s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 46.2s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 46.5s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 46.8s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 47.0s] [REROUTING / DETOUR]   | Dist: 0.15m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 47.2s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 47.5s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 47.8s] [REROUTING / DETOUR]   | Dist: 0.15m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 48.0s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 48.2s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 48.5s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 48.8s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 49.0s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 49.2s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 49.5s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 49.8s] [REROUTING / DETOUR]   | Dist: 0.15m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 50.0s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 50.2s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 50.5s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 50.8s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 51.0s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 51.2s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 51.5s] [REROUTING / DETOUR]   | Dist: 0.15m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 51.8s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 52.0s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 52.2s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 52.5s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 52.8s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 53.0s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 53.2s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 53.5s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 53.8s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 54.0s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 54.2s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 54.5s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 54.8s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 55.0s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 55.2s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 55.5s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 55.8s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 56.0s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 56.2s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 56.5s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 56.8s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 57.0s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 57.2s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 57.5s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 57.8s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 58.0s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 58.2s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 58.5s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 58.8s] [REROUTING / DETOUR]   | Dist: 0.15m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 59.0s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 59.2s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 59.5s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 59.8s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 60.0s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 60.2s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 60.5s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 60.8s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 61.0s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 61.2s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 61.5s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 61.8s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 62.0s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 62.2s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 62.5s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 62.8s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 63.0s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 63.2s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 63.5s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 63.8s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 64.0s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 64.2s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 64.5s] [REROUTING / DETOUR]   | Dist: 0.17m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 64.8s] [REROUTING / DETOUR]   | Dist: 0.15m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 65.0s] [REROUTING / DETOUR]   | Dist: 0.16m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 65.2s] [REROUTING / DETOUR]   | Dist: 0.18m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 65.5s] [REROUTING / DETOUR]   | Dist: 0.15m  | [REROUTING] 上側迂回ルート(Y=1.8)を通過中。配膳先へ向かいます。
+[ 65.8s] [DELIVERING / ACTIVE]  | Dist: 0.17m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.84m
+[ 66.0s] [DELIVERING / ACTIVE]  | Dist: 0.15m  | [WARNING] [注意喚起] 前方に障害物接近中。減速待機します。距離: 0.84m
+[ 66.2s] [DELIVERY COMPLETED]   | Dist: 0.16m  | 【配膳完了】オムライスをお届けしました！ごゆっくりお召し上がりください。
+[ 66.5s] [DELIVERY COMPLETED]   | Dist: 0.16m  | 【配膳完了】オムライスをお届けしました！ごゆっくりお召し上がりください。
+[ 66.8s] [DELIVERY COMPLETED]   | Dist: 0.18m  | 【配膳完了】オムライスをお届けしました！ごゆっくりお召し上がりください。
+[ 67.0s] [DELIVERY COMPLETED]   | Dist: 0.19m  | 【配膳完了】オムライスをお届けしました！ごゆっくりお召し上がりください。
+[ 67.2s] [DELIVERY COMPLETED]   | Dist: 0.16m  | 【配膳完了】オムライスをお届けしました！ごゆっくりお召し上がりください。
+[ 67.5s] [DELIVERY COMPLETED]   | Dist: 0.17m  | 【配膳完了】オムライスをお届けしました！ごゆっくりお召し上がりください。
+[ 67.8s] [DELIVERY COMPLETED]   | Dist: 0.16m  | 【配膳完了】オムライスをお届けしました！ごゆっくりお召し上がりください。
+[ 68.0s] [DELIVERY COMPLETED]   | Dist: 0.17m  | 【配膳完了】オムライスをお届けしました！ごゆっくりお召し上がりください。
+[ 68.2s] [DELIVERY COMPLETED]   | Dist: 0.15m  | 【配膳完了】オムライスをお届けしました！ごゆっくりお召し上がりください。
+[ 68.5s] [DELIVERY COMPLETED]   | Dist: 0.17m  | 【配膳完了】オムライスをお届けしました！ごゆっくりお召し上がりください。
+[ 68.8s] [DELIVERY COMPLETED]   | Dist: 0.16m  | 【配膳完了】オムライスをお届けしました！ごゆっくりお召し上がりください。
+[ 69.0s] [DELIVERY COMPLETED]   | Dist: 0.18m  | 【配膳完了】オムライスをお届けしました！ごゆっくりお召し上がりください。
+[ 69.2s] [DELIVERY COMPLETED]   | Dist: 0.18m  | 【配膳完了】オムライスをお届けしました！ごゆっくりお召し上がりください。
+[ 69.5s] [DELIVERY COMPLETED]   | Dist: 0.16m  | 【配膳完了】オムライスをお届けしました！ごゆっくりお召し上がりください。

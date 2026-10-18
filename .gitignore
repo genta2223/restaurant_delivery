@@ -1,0 +1,10 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+debug_output/frame_*.jpg
+debug_output/ng/
+debug_output/新しいフォルダー/
+.DS_Store
+Thumbs.db

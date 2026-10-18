@@ -1,0 +1,412 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="restaurant_world">
+
+    <!-- Sun Light -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Floor (Ground Plane) -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Lighting & Physics Config -->
+    <scene>
+      <ambient>0.65 0.65 0.65 1.0</ambient>
+      <background>0.85 0.85 0.85 1.0</background>
+      <shadows>true</shadows>
+    </scene>
+
+    <!-- Kitchen Serving Counter at Start Area (X=-2.2, Y=0.0: generous rear space from X=0.0 robot spawn) -->
+    <model name="kitchen_counter">
+      <static>true</static>
+      <pose>-2.2 0.0 0.40 0 0 0</pose>
+      <link name="counter_link">
+        <visual name="counter_top">
+          <geometry>
+            <box>
+              <size>0.6 2.6 0.80</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.3 0.3 0.35 1.0</ambient>
+            <diffuse>0.3 0.3 0.35 1.0</diffuse>
+          </material>
+        </visual>
+        <collision name="counter_collision">
+          <geometry>
+            <box>
+              <size>0.6 2.6 0.80</size>
+            </box>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Target Customer Dining Table at Goal (X=4.2, Y=0.0) -->
+    <model name="table_target">
+      <static>true</static>
+      <pose>4.2 0.0 0.0 0 0 0</pose>
+      <link name="table_link">
+        <visual name="top_visual">
+          <pose>0 0 0.72 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.9 1.1 0.04</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.6 0.35 0.15 1.0</ambient>
+            <diffuse>0.6 0.35 0.15 1.0</diffuse>
+          </material>
+        </visual>
+        <collision name="top_collision">
+          <pose>0 0 0.72 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.9 1.1 0.04</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="leg_visual">
+          <pose>0 0 0.35 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.08</radius>
+              <length>0.70</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.2 0.2 0.2 1.0</ambient>
+          </material>
+        </visual>
+        <collision name="leg_collision">
+          <pose>0 0 0.35 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.08</radius>
+              <length>0.70</length>
+            </cylinder>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Middle Divider Table 1 (Separating Central Aisle Y=0.0 and Upper Aisle Y=1.6) -->
+    <!-- Shifted forward to X=2.1m to ensure wide clear detour corridor between X=1.0 and X=1.6 -->
+    <model name="mid_table_1">
+      <static>true</static>
+      <pose>2.1 0.80 0.0 0 0 0</pose>
+      <link name="table_link">
+        <visual name="top_visual">
+          <pose>0 0 0.72 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.65 0.50 0.04</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.35 0.2 1.0</ambient>
+            <diffuse>0.5 0.35 0.2 1.0</diffuse>
+          </material>
+        </visual>
+        <collision name="top_collision">
+          <pose>0 0 0.72 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.65 0.50 0.04</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="leg_visual">
+          <pose>0 0 0.35 0 0 0</pose>
+          <geometry>
+            <cylinder><radius>0.06</radius><length>0.70</length></cylinder>
+          </geometry>
+          <material><ambient>0.2 0.2 0.2 1.0</ambient></material>
+        </visual>
+        <collision name="leg_collision">
+          <pose>0 0 0.35 0 0 0</pose>
+          <geometry>
+            <cylinder><radius>0.06</radius><length>0.70</length></cylinder>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Middle Divider Table 2 -->
+    <model name="mid_table_2">
+      <static>true</static>
+      <pose>2.9 0.80 0.0 0 0 0</pose>
+      <link name="table_link">
+        <visual name="top_visual">
+          <pose>0 0 0.72 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.85 0.55 0.04</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.35 0.2 1.0</ambient>
+            <diffuse>0.5 0.35 0.2 1.0</diffuse>
+          </material>
+        </visual>
+        <collision name="top_collision">
+          <pose>0 0 0.72 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>0.85 0.55 0.04</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="leg_visual">
+          <pose>0 0 0.35 0 0 0</pose>
+          <geometry>
+            <cylinder><radius>0.06</radius><length>0.70</length></cylinder>
+          </geometry>
+          <material><ambient>0.2 0.2 0.2 1.0</ambient></material>
+        </visual>
+        <collision name="leg_collision">
+          <pose>0 0 0.35 0 0 0</pose>
+          <geometry>
+            <cylinder><radius>0.06</radius><length>0.70</length></cylinder>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- South Side Tables (Guiding Route A from the bottom Y=-0.9) -->
+    <model name="south_table_1">
+      <static>true</static>
+      <pose>1.8 -0.90 0.0 0 0 0</pose>
+      <link name="table_link">
+        <visual name="top_visual">
+          <pose>0 0 0.72 0 0 0</pose>
+          <geometry><box><size>0.8 0.6 0.04</size></box></geometry>
+          <material><ambient>0.45 0.3 0.18 1.0</ambient></material>
+        </visual>
+        <collision name="top_collision">
+          <pose>0 0 0.72 0 0 0</pose>
+          <geometry><box><size>0.8 0.6 0.04</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="south_table_2">
+      <static>true</static>
+      <pose>2.8 -0.90 0.0 0 0 0</pose>
+      <link name="table_link">
+        <visual name="top_visual">
+          <pose>0 0 0.72 0 0 0</pose>
+          <geometry><box><size>0.8 0.6 0.04</size></box></geometry>
+          <material><ambient>0.45 0.3 0.18 1.0</ambient></material>
+        </visual>
+        <collision name="top_collision">
+          <pose>0 0 0.72 0 0 0</pose>
+          <geometry><box><size>0.8 0.6 0.04</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- North Side Tables (Guiding Route B from the top Y=2.5) -->
+    <model name="north_table_1">
+      <static>true</static>
+      <pose>1.8 2.50 0.0 0 0 0</pose>
+      <link name="table_link">
+        <visual name="top_visual">
+          <pose>0 0 0.72 0 0 0</pose>
+          <geometry><box><size>0.8 0.6 0.04</size></box></geometry>
+          <material><ambient>0.45 0.3 0.18 1.0</ambient></material>
+        </visual>
+        <collision name="top_collision">
+          <pose>0 0 0.72 0 0 0</pose>
+          <geometry><box><size>0.8 0.6 0.04</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name="north_table_2">
+      <static>true</static>
+      <pose>2.8 2.50 0.0 0 0 0</pose>
+      <link name="table_link">
+        <visual name="top_visual">
+          <pose>0 0 0.72 0 0 0</pose>
+          <geometry><box><size>0.8 0.6 0.04</size></box></geometry>
+          <material><ambient>0.45 0.3 0.18 1.0</ambient></material>
+        </visual>
+        <collision name="top_collision">
+          <pose>0 0 0.72 0 0 0</pose>
+          <geometry><box><size>0.8 0.6 0.04</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Rolling Girl: Initially seated/waiting at South Dining Table (X=3.0, Y=-1.2, Z=0.0) -->
+    <!-- In Act 2 (T >= 12.0s), child_spawner animates her getting up and moving to X=2.5, Y=0.0 to roll across Route A -->
+    <model name="rolling_girl">
+      <pose>3.0 -1.2 0.0 0 0 1.57</pose>
+      <link name="girl_body">
+        <inertial>
+          <mass>10.0</mass>
+          <inertia>
+            <ixx>0.15</ixx><ixy>0.0</ixy><ixz>0.0</ixz>
+            <iyy>0.15</iyy><iyz>0.0</iyz><izz>0.1</izz>
+          </inertia>
+        </inertial>
+        <!-- Pink Torso -->
+        <visual name="torso_visual">
+          <pose>0 0 0.35 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.14</radius>
+              <length>0.40</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>1.0 0.3 0.7 1.0</ambient>
+            <diffuse>1.0 0.3 0.7 1.0</diffuse>
+          </material>
+        </visual>
+        <collision name="torso_collision">
+          <pose>0 0 0.35 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.14</radius>
+              <length>0.40</length>
+            </cylinder>
+          </geometry>
+        </collision>
+        <!-- Head -->
+        <visual name="head_visual">
+          <pose>0 0 0.65 0 0 0</pose>
+          <geometry>
+            <sphere>
+              <radius>0.11</radius>
+            </sphere>
+          </geometry>
+          <material>
+            <ambient>0.95 0.8 0.7 1.0</ambient>
+            <diffuse>0.95 0.8 0.7 1.0</diffuse>
+          </material>
+        </visual>
+        <collision name="head_collision">
+          <pose>0 0 0.65 0 0 0</pose>
+          <geometry>
+            <sphere>
+              <radius>0.11</radius>
+            </sphere>
+          </geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Waiting Adult Customer: Seated at Goal Customer Dining Table (X=4.5, Y=0.0) -->
+    <model name="waiting_customer">
+      <static>true</static>
+      <pose>4.7 0.0 0.0 0 0 3.1415</pose>
+      <link name="customer_body">
+        <!-- Chair Base -->
+        <visual name="chair_seat">
+          <pose>0 0 0.42 0 0 0</pose>
+          <geometry><box><size>0.45 0.45 0.05</size></box></geometry>
+          <material><ambient>0.2 0.15 0.1 1.0</ambient></material>
+        </visual>
+        <!-- Customer Torso (Grey suit / jacket) -->
+        <visual name="torso_visual">
+          <pose>0 0 0.72 0 0 0</pose>
+          <geometry><cylinder><radius>0.16</radius><length>0.55</length></cylinder></geometry>
+          <material><ambient>0.3 0.35 0.4 1.0</ambient><diffuse>0.3 0.35 0.4 1.0</diffuse></material>
+        </visual>
+        <collision name="torso_collision">
+          <pose>0 0 0.72 0 0 0</pose>
+          <geometry><cylinder><radius>0.16</radius><length>0.55</length></cylinder></geometry>
+        </collision>
+        <!-- Customer Head -->
+        <visual name="head_visual">
+          <pose>0 0 1.08 0 0 0</pose>
+          <geometry><sphere><radius>0.12</radius></sphere></geometry>
+          <material><ambient>0.9 0.75 0.65 1.0</ambient><diffuse>0.9 0.75 0.65 1.0</diffuse></material>
+        </visual>
+        <collision name="head_collision">
+          <pose>0 0 1.08 0 0 0</pose>
+          <geometry><sphere><radius>0.12</radius></sphere></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Running Boy: Starts at X=1.1, Y=1.2 (Act 1 toddler crosser) -->
+    <model name="running_boy">
+      <pose>1.1 1.2 0.0 0 0 -1.57</pose>
+      <link name="boy_body">
+        <inertial>
+          <mass>12.0</mass>
+          <inertia>
+            <ixx>0.2</ixx><ixy>0.0</ixy><ixz>0.0</ixz>
+            <iyy>0.2</iyy><iyz>0.0</iyz><izz>0.1</izz>
+          </inertia>
+        </inertial>
+        <visual name="torso_visual">
+          <pose>0 0 0.40 0 0 0</pose>
+          <geometry><cylinder><radius>0.13</radius><length>0.45</length></cylinder></geometry>
+          <material><ambient>0.1 0.4 0.9 1.0</ambient><diffuse>0.1 0.4 0.9 1.0</diffuse></material>
+        </visual>
+        <collision name="torso_collision">
+          <pose>0 0 0.40 0 0 0</pose>
+          <geometry><cylinder><radius>0.13</radius><length>0.45</length></cylinder></geometry>
+        </collision>
+        <visual name="head_visual">
+          <pose>0 0 0.70 0 0 0</pose>
+          <geometry><sphere><radius>0.11</radius></sphere></geometry>
+          <material><ambient>0.9 0.75 0.65 1.0</ambient><diffuse>0.9 0.75 0.65 1.0</diffuse></material>
+        </visual>
+        <collision name="head_collision">
+          <pose>0 0 0.70 0 0 0</pose>
+          <geometry><sphere><radius>0.11</radius></sphere></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Legacy alias model -->
+    <model name="running_child">
+      <pose>10.0 10.0 0.0 0 0 0</pose>
+      <static>true</static>
+      <link name="dummy_link">
+        <visual name="v"><geometry><box><size>0.01 0.01 0.01</size></box></geometry></visual>
+      </link>
+    </model>
+
+    <!-- Overhead Debug Camera: Wide-angle high view including Kitchen Counter (X=-1.8) and Goal Table (X=4.2) -->
+    <model name="overhead_debug_camera">
+      <static>true</static>
+      <pose>-0.5 -1.2 5.5 0 1.02 0.85</pose>
+      <link name="camera_link">
+        <visual name="cam_visual">
+          <geometry><box><size>0.15 0.15 0.15</size></box></geometry>
+          <material><ambient>0.2 0.2 0.2 1.0</ambient></material>
+        </visual>
+        <sensor type="camera" name="debug_camera">
+          <update_rate>10.0</update_rate>
+          <camera name="overhead">
+            <horizontal_fov>1.45</horizontal_fov>
+            <image>
+              <width>640</width>
+              <height>480</height>
+              <format>R8G8B8</format>
+            </image>
+            <clip><near>0.1</near><far>30.0</far></clip>
+          </camera>
+          <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+            <ros>
+              <remapping>image_raw:=/debug_camera/image_raw</remapping>
+              <remapping>camera_info:=/debug_camera/camera_info</remapping>
+            </ros>
+            <frame_name>camera_link</frame_name>
+          </plugin>
+        </sensor>
+      </link>
+    </model>
+
+  </world>
+</sdf>
